@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="User" value="Priya"></parameter>
+	  <parameter name="Password" value="123jfv"></parameter>
+	  <parameter name="Name" value="kevin"></parameter>
+	  <parameter name="surname" value="cliford"></parameter>
+    <classes>
+		
+     <class name="TestNg.ParameterTestNGEx6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

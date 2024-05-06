@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="123jfv"/>
+    <parameter name="User" value="Priya"/>
+    <parameter name="surname" value="cliford"/>
+    <parameter name="Name" value="kevin"/>
+    <classes>
+      <class name="TestNg.ParameterTestNGEx6">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNg.ParameterTestNGEx6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
